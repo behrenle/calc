@@ -1,0 +1,168 @@
+body {
+  font-family: verdana;
+  font-size: 28pt;
+}
+
+div {
+  border: 5px double black;
+  background: rgb(196, 196, 255);
+}
+
+b {
+  position: absolute;
+}
+
+::selection {
+  background: orange;
+  color: white;
+}
+
+::-moz-selection {
+  background: orange;
+  color: white;
+}
+
+textarea {
+  position: absolute;
+  font-family: verdana;
+  font-size: 42pt;
+  background-color: rgb(230, 230, 230);
+  color: black;
+  white-space: nowrap;
+  resize: none;
+  border: 5px solid black;
+}
+
+textarea:hover {
+  background-color: white;
+}
+
+.default {
+  border: 5px solid black;
+  background: rgb(200, 200, 200);
+  color: black;
+  font-family: verdana;
+  font-size: 36pt;
+  position: absolute;
+}
+
+
+.default:hover {
+  background: rgb(220, 220, 220);
+}
+
+#settings {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 10%;
+}
+#angle {
+  top: 5%;
+  left: 0.5%;
+  width: 24.5%;
+  height: 90%;
+}
+#decimals {
+  top: 5%;
+  left: 25.5%;
+  width: 22%;
+  height: 90%;
+}
+#system {
+  top: 5%;
+  left: 48%;
+  width: 27%;
+  height: 90%;
+}
+#colors {
+  top: 5%;
+  left: 75.5%;
+  width: 24%;
+  height: 90%;
+}
+
+#io {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  width: 90%;
+  height: 60%;
+}
+#input_label {
+  top: 1%;
+  left: 0.5%;
+}
+#input {
+  top: 10%;
+  left: 0.5%;
+  width: 98%;
+  height: 20%;
+}
+#output_label {
+  top: 40%;
+  left: 0.5%;
+}
+#output {
+  top: 49%;
+  left: 0.5%;
+  width: 98%;
+  height: 20%;
+}
+#plot {
+  top: 75%;
+  left: 0.5%;
+  width: 9%;
+  height: 20%;
+}
+#protocol {
+  top: 75%;
+  left: 10%;
+  width: 14.5%;
+  height: 20%;
+}
+#copy_protocol {
+  top: 75%;
+  left: 25%;
+  width: 24.5%;
+  height: 20%;
+}
+#delete_protocol {
+  top: 75%;
+  left: 50%;
+  width: 24.5%;
+  height: 20%;
+}
+#protocol_status {
+  top: 75%;
+  left: 75%;
+  width: 24.5%;
+  height: 20%;
+}
+
+#other {
+  position: absolute;
+  top: 85%;
+  left: 5%;
+  width: 90%;
+  height: 10%;
+}
+#index {
+  top: 5%;
+  left: 0.5%;
+  width: 30%;
+  height: 90%;
+}
+#overview {
+  top: 5%;
+  left: 31%;
+  width: 35%;
+  height: 90%;
+}
+#manual {
+  top: 5%;
+  left: 66.5%;
+  width: 33%;
+  height: 90%;
+}
