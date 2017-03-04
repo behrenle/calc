@@ -9,7 +9,7 @@ function evaluate(str) {
       output.value = "Eingabefehler!";
     }
   } catch(e) {
-    output.value = "Eingabe Fehler!";
+    output.value = "Eingabefehler!";
   }
   return;
 }
